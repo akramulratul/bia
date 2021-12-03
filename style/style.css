@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Open Sans", sans-serif; */
+}
+.css-1mybp7c-buttonStyle-Button {
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 45px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 13px;
+  cursor: pointer;
+}
+/* @media (min-width: 1250px) .css-1mybp7c-buttonStyle-Button {
+  height: 48px;
+} */
+.css-1mybp7c-buttonStyle-Button.button {
+  margin-left: 42px;
+  padding: 0px 30px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(67, 96, 253);
+}
+.css-1mybp7c-buttonStyle-Button.button--cta {
+  padding: 0px 30px;
+  font-size: 14px;
+  box-shadow: rgb(67 96 253 / 30%) 0px 8px 20px 0px;
+}
+a {
+  text-decoration: none;
+}
+.css-1mybp7c-buttonStyle-Button.button:hover,
+.css-1mybp7c-buttonStyle-Button.button .button:focus {
+  box-shadow: rgb(168 168 168 / 40%) 0px 1px 10px 0px;
+  transform: translateY(-0.1em);
+  transition: all 0.3s ease 0s;
+}
+
+.header-style .nav-items {
+  margin-left: 42px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 650;
+  color: black;
+}
+.background-image {
+  /* background-image: url(../images/homebg1.png); */
+  display: flex;
+  width: 100%;
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  height: 100%;
+  position: relative;
+}
+.background-two {
+  background-image: url(../images/background-two.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  min-height: 180vh;
+  background-size: 100% 100%;
+  margin-top: -283px;
+}
+.for-responsive {
+  color: #ffff;
+}
+.for-down {
+  margin-top: 80vh;
+}
+@media only screen and (max-width: 960px) {
+  /* For mobile phones: */
+  .background-two {
+    background-image: none;
+    margin-top: 0px;
+  }
+  .for-responsive {
+    color: black;
+  }
+  .for-down {
+    margin-top: 1vh;
+    padding-top: 0px;
+  }
+}
+.roadmap {
+  /* background-image: url(../images/mapbg.png); */
+  background-repeat: no-repeat;
+  width: 100%;
+  text-align: center;
+  color: #111;
+  /* min-width: 600px; */
+  background-size: cover;
+  background-size: 100% 100%;
+  /* //57 background size*/
+  margin: 0 auto 0;
+  position: absolute;
+}
+/* .heading-style {
+  position: relative;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0 0 0 /50%) 1px 1px 3px;
+}
+.subtitle {
+  margin-top: 5px;
+  font-weight: 600;
+  color: white;
+}
+.lead-detailStyle {
+  width: calc(100%-48px);
+}
+@media (min-width: 1250px) {
+  .lead-detailStyle {
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 1250) {
+  .detailStyle {
+    max-width: 600px;
+  }
+}
+.detailStyle {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 25px;
+  color: white;
+}
+.detailStyle::before {
+  width: 22px;
+  height: 22px;
+  margin-right: 17px;
+  background: url(../images/icon.svg) center center / contain no-repeat;
+} */
+/* .image-position {
+  width: 100%;
+  height: 53%;
+  background: url(../images/rocket.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+} */
+
+/* @media (min-width: 1250px) {
+  .image-position {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-200px);
+    width: 900px;
+    height: 600px;
+    background-size: contain;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: animation-1mud10m;
+  }
+} */
+@media screen and (max-width: 600px) {
+  .image-position {
+    width: 100px;
+    height: 200px;
+  }
+}
+
+/* @media only screen and (max-width: 320px) {
+  .background-two {
+  }
+} */
+
+.discover {
+  background: red;
+}
+.footer-background {
+  background: url(../images/Footer.svg);
+  background-repeat: no-repeat;
+  width: 99%;
+  height: 100%;
+  position: relative;
+}
+.font-size {
+  font-size: large;
+}
+.background-last {
+  background-image: url(../images/last\ bg.png);
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  .scroll img {
+    transition: transform 0.2s;
+    min-height: 100%;
+    min-width: 100%;
+  }
+  .scroll img:hover {
+    transform: scale(1.5);
+  }
+}
+
+.curriculum {
+  background-image: url(../images/curriculum\ back.svg);
+}
